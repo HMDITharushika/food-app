@@ -14,165 +14,162 @@ import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
   { label: "Features", href: "#" },
-  { label: "Workflow", href: "#" },
-  { label: "Pricing", href: "#" },
+  { label: "Neutroflow", href: "#" },
+  { label: "Guidance", href: "#" },
   { label: "Testimonials", href: "#" },
 ];
 
 export const testimonials = [
   {
-    user: "John Doe",
-    company: "Stellar Solutions",
+    user: "Mahima Gavesh",
+    company: "Age 32:",
     image: user1,
-    text: "I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.",
+    text: "DiaMeals made managing my diabetes so much easier. The personalized meal plans are spot on for my needs.",
   },
   {
-    user: "Jane Smith",
-    company: "Blue Horizon Technologies",
+    user: "Rashmi Pramoda",
+    company: "Age 45:",
     image: user2,
-    text: "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life",
+    text: "I love how DiaMeals tailors everything to my age and lifestyle. It’s a game-changer for my daily routine.",
   },
   {
-    user: "David Johnson",
-    company: "Quantum Innovations",
+    user: "Ishan Sharma",
+    company: "Age 54:",
     image: user3,
-    text: "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.",
+    text: "This app really helped me understand which foods are best for me. My blood sugar is more stable than ever!",
   },
   {
-    user: "Ronee Brown",
-    company: "Fusion Dynamics",
+    user: "Rohan Patel",
+    company: "Age 28:",
     image: user4,
-    text: "Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible. We are grateful for their expertise and professionalism!",
+    text: "DiaMeals provides simple, practical advice. The meal suggestions are easy to follow and fit perfectly into my busy life.",
   },
   {
-    user: "Michael Wilson",
-    company: "Visionary Creations",
+    user: "Michael Fernnado",
+    company: "Age 50:",
     image: user5,
-    text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
+    text: "Using DiaMeals has improved my diet and overall health. The app’s guidance is clear and incredibly useful.",
   },
   {
-    user: "Emily Davis",
-    company: "Synergy Systems",
+    user: "Nisali Niketha",
+    company: "Age 65:",
     image: user6,
-    text: "The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future.",
+    text: "I’ve been able to maintain better control over my diabetes with DiaMeals. The personalized insights are truly valuable.",
   },
 ];
 
 export const features = [
   {
     icon: <BotMessageSquare />,
-    text: "Drag-and-Drop Interface",
+    text: "Balance Your Plate",
     description:
-      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+      "Incorporate a variety of food groups—whole grains, lean proteins, and healthy fats for balanced meals.",
   },
   {
     icon: <Fingerprint />,
-    text: "Multi-Platform Compatibility",
+    text: "Portion Control Matters",
     description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+      "Smaller portions help maintain blood sugar levels. Practice mindful eating to avoid overeating.",
   },
   {
     icon: <ShieldHalf />,
-    text: "Built-in Templates",
+    text: "Choose Low-Glycemic Foods",
     description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+      "Options for foods with a low glycemic index, like leafy greens and berries, to keep glucose levels steady.",
   },
   {
     icon: <BatteryCharging />,
-    text: "Real-Time Preview",
+    text: "Stay Hydrated",
     description:
-      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+      "Drink plenty of water throughout the day to support overall health and aid in digestion.",
   },
   {
     icon: <PlugZap />,
-    text: "Collaboration Tools",
+    text: "Limit Sugary Snacks",
     description:
-      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+      "Replace sugary snacks with healthier alternatives like nuts or fresh fruit to manage cravings.",
   },
   {
     icon: <GlobeLock />,
-    text: "Analytics Dashboard",
+    text: "Consult Regularly",
     description:
-      "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
+      "Work with your healthcare provider to adjust your diet as needed for optimal diabetes management.",
   },
 ];
 
 export const checklistItems = [
   {
-    title: "Code merge made easy",
+    title: "Personalized Meal Plans",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Receive meal suggestions tailored to your age, gender, and health needs for optimal diabetes management.",
   },
   {
-    title: "Review code without worry",
+    title: "Nutritional Insights",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Access detailed information on the nutritional value of recommended foods to support your health goals.",
   },
   {
-    title: "AI Assistance to reduce time",
+    title: "Health Tracking Made Easy",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Monitor your dietary choices and track progress effortlessly with our user-friendly tools.",
   },
   {
-    title: "Share work in minutes",
+    title: "Stay Informed",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Get the latest tips and updates on diabetes management to keep your health on track.",
   },
 ];
 
 export const pricingOptions = [
   {
-    title: "Free",
-    price: "$0",
+    title: "Young Adults",
+    price: "Age 20 - 40",
     features: [
-      "Private board sharing",
-      "5 Gb Storage",
-      "Web Analytics",
-      "Private Mode",
+      "Focus on balanced meals with lean proteins and whole grains.",
+      "Incorporate regular physical activity to maintain energy levels.",
+      "Monitor portion sizes to manage blood sugar effectively.",
     ],
   },
   {
-    title: "Pro",
-    price: "$10",
+    title: "Midlife Nutrition",
+    price: "Age 40 - 50",
     features: [
-      "Private board sharing",
-      "10 Gb Storage",
-      "Web Analytics (Advance)",
-      "Private Mode",
+      "Prioritize heart-healthy foods like fatty fish, nuts, and seeds.",
+      "Include more fiber-rich vegetables to aid digestion.",
+      "Stay hydrated and limit intake of sugary snacks.",
     ],
   },
   {
-    title: "Enterprise",
-    price: "$200",
+    title: "Golden Years",
+    price: "Age 50 - 70",
     features: [
-      "Private board sharing",
-      "Unlimited Storage",
-      "High Performance Network",
-      "Private Mode",
+      "Choose foods that support bone health, like dairy or fortified alternatives.",
+      "Opt for low-glycemic fruits to keep glucose levels steady.",
+      "Maintain regular meal times to support metabolic health.",
     ],
   },
 ];
 
 export const resourcesLinks = [
   { href: "#", text: "Getting Started" },
-  { href: "#", text: "Documentation" },
-  { href: "#", text: "Tutorials" },
-  { href: "#", text: "API Reference" },
-  { href: "#", text: "Community Forums" },
+  { href: "#", text: "Meal Planning Guide" },
+  { href: "#", text: "Nutritional Tips" },
+  { href: "#", text: "Health Insights" },
+  { href: "#", text: "Support Center" },
 ];
 
 export const platformLinks = [
-  { href: "#", text: "Features" },
-  { href: "#", text: "Supported Devices" },
-  { href: "#", text: "System Requirements" },
-  { href: "#", text: "Downloads" },
-  { href: "#", text: "Release Notes" },
+  { href: "#", text: "Features Overview" },
+  { href: "#", text: "Compatibility Information" },
+  { href: "#", text: "User Requirements" },
+  { href: "#", text: "App Downloads" },
+  { href: "#", text: "Update History" },
 ];
 
 export const communityLinks = [
-  { href: "#", text: "Events" },
-  { href: "#", text: "Meetups" },
-  { href: "#", text: "Conferences" },
-  { href: "#", text: "Hackathons" },
-  { href: "#", text: "Jobs" },
+  { href: "#", text: "Webinars" },
+  { href: "#", text: "Support Groups" },
+  { href: "#", text: "Health Workshops" },
+  { href: "#", text: "Patient Stories" },
+  { href: "#", text: "Volunteer Opportunities" },
 ];

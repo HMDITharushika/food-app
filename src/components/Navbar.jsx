@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           <div className="flex items-center flex-shrink-0">
             <img className="h-10 w-10 mr-2" src={logo} alt="logo" />
-            <span className="text-xl tracking-tight">DiaMeals</span>
+            <span className="text-xl tracking-tight">FRFDP</span>
           </div>
 
           <ul className="hidden lg:flex ml-14 space-x-12">
@@ -30,14 +30,14 @@ const Navbar = () => {
 
           <div className="hidden lg:flex justify-center space-x-12 items-center">
             <a href="#" className="py-2 px-3 border rounded-md">
-              Sign In
+              Join Us
             </a>
 
             <a
               href="#"
               className="bg-gradient-to-r from-green-500 to-green-800 py-2 px-3 rounded-md"
             >
-              Create an account
+              Read More
             </a>
           </div>
           <div className="lg:hidden md:flex flex-col justify-end">
@@ -58,13 +58,13 @@ const Navbar = () => {
             </ul>
             <div className="flex space-x-6">
               <a href="#" className="py-2 px-3 border rounded-md">
-                Sign In
+                Join Us
               </a>
               <a
                 href="#"
                 className="py-2 px-3 rounded-md bg-gradient-to-r from-green-500 to-green-800"
               >
-                Create an account
+                Read More
               </a>
             </div>
           </div>
